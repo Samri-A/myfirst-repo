@@ -1,2 +1,1 @@
-# myfirst-repo
-practice account for learning git
+# This is dedicated repo for DSA course lab assignments 
