@@ -10,7 +10,7 @@ int main(){
     int initialInventoryQuantity;
     float productPricePerUnit;
     int numOfItemsSold;
-    int newInventory;
+    int newInventory = 0; 
     float totalSale; 
     string inventoryStatus;
 
@@ -29,8 +29,8 @@ int main(){
     auto autoTotalSale = totalSale;
     decltype(initialInventoryQuantity) decltypedInventory = 50;
 
-    #define taxRateMacro 0.07
-    double const taxRate = 0.07;
+    #define taxRateMacro 0.09
+    double const taxRate = 0.09;
 
     cout << "Enter product name: ";
     getline(cin, productName);
